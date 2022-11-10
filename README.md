@@ -2,3 +2,13 @@
 
 
 password   ATBB7PLVFunSUu5nmg2jcA6Vv9bE92931EB9
+
+
+
+# 安装GO环境 
+- 参考：[连接](https://learnku.com/articles/69929)
+
+## 项目初始化
+- `go mod init cloud-disk`
+- `go get xorm.io/xorm`
+- 安装超时问题： `go env -w GOPROXY=https://goproxy.cn,direct`
