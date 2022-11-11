@@ -12,3 +12,9 @@ password   ATBB7PLVFunSUu5nmg2jcA6Vv9bE92931EB9
 - `go mod init cloud-disk`
 - `go get xorm.io/xorm`
 - 安装超时问题： `go env -w GOPROXY=https://goproxy.cn,direct`
+
+
+## 安装 go-zero
+- `go install github.com/zeromicro/go-zero/tools/goctl@latest`
+- 切到单体服务
+    - `goctl api new core`
