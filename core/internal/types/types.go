@@ -8,3 +8,12 @@ type Request struct {
 type Response struct {
 	Message string `json:"message"`
 }
+
+type LoginRequest struct {
+	Name     string `json:"name"`
+	Password string `json:"password"`
+}
+
+type LoginReply struct {
+	Token string `json:"token"`
+}

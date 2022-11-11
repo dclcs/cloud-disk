@@ -18,3 +18,5 @@ password   ATBB7PLVFunSUu5nmg2jcA6Vv9bE92931EB9
 - `go install github.com/zeromicro/go-zero/tools/goctl@latest`
 - 切到单体服务
     - `goctl api new core`
+    - `goctl api go -api core.api -dir . -style go_zero`
+    - 运行： `go run core.go -f etc/core-api.yaml`
