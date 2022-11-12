@@ -28,7 +28,7 @@ func NewUserLogic(ctx context.Context, svcCtx *svc.ServiceContext) *UserLogic {
 
 func (l *UserLogic) User(req *types.LoginRequest) (resp *types.LoginReply, err error) {
 	user := new(models.UserBasic)
-	has, err := models.Engine.Where("name = ? and passoword = ?", req.Name, helper.MD5(req.Password)).Get(user)
+	has, err := models.Engine.Where("name = ? and password = ?", req.Name, helper.MD5(req.Password)).Get(user)
 
 	if err != nil {
 		return nil, err
