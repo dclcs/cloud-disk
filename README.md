@@ -1,7 +1,7 @@
 # 初始化项目
 
 
-password   ATBB7PLVFunSUu5nmg2jcA6Vv9bE92931EB9
+password   ATBB7PLVFunSUu5nmg2jcA6Vv9bE92931EB9 / ATBBqHfhm5Ggc4v2UAjedRXWknYCA4C4D7A4
 
 
 
@@ -20,3 +20,5 @@ password   ATBB7PLVFunSUu5nmg2jcA6Vv9bE92931EB9
     - `goctl api new core`
     - `goctl api go -api core.api -dir . -style go_zero`
     - 运行： `go run core.go -f etc/core-api.yaml`
+- 安装验证码服务库
+    - `go get github.com/jordan-wright/email`

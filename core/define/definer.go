@@ -10,3 +10,7 @@ type UserCalim struct {
 }
 
 var JWTKey = "cloud-disk-key"
+
+var MailFromName = "yeahdcl<dclan19128961652@yeah.net>"
+var MailPassword = "JHJZKSIBRORRTMKC"
+var MailName = "dclan19128961652@yeah.net"
